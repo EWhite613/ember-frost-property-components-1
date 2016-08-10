@@ -1,0 +1,1 @@
+export { default } from 'ember-frost-property-components/components/primary-state-property/component';

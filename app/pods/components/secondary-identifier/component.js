@@ -1,0 +1,1 @@
+export { default } from 'ember-frost-property-components/components/secondary-identifier/component';
