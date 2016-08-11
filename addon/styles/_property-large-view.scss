@@ -1,0 +1,18 @@
+.property-label-large{
+  font-size: $frost-font-xs;
+  color: $frost-color-grey-4;
+  max-width: 45%;
+  float: left;
+}
+.property-label-large-colon {
+  font-size: $frost-font-xs;
+  color: $frost-color-grey-4;
+  float: left;
+  margin-right: 5px;
+}
+.property-value-large{
+  font-size: $frost-font-xs;
+  color: $frost-color-grey-1;
+  float: left;
+  max-width: 55%;
+}
