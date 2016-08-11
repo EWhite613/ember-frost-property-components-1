@@ -1,0 +1,36 @@
+$frost-color-major-1: #EF8E00;
+$frost-color-critical-1: #E52C2C;
+$frost-color-warn-1: #7D85B2;
+
+.state-div {
+  margin-left: auto;
+  margin-right: 0px;
+  font-size: 14px;
+  padding: 2px 2px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: normal;
+  
+  &.warn {
+    background-color: $frost-color-warn-1;
+    color: white;
+    
+  }
+  &.major {
+    background-color: $frost-color-major-1;
+    color: white;
+  }
+  &.critical {
+    background-color: $frost-color-critical-1;
+    color: white;
+    
+  }
+  &.neutral {
+
+  }
+}
+
+.right-justified {
+  text-align: right;
+}
+
