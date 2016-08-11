@@ -1,0 +1,25 @@
+.property-label-small{
+  font-size: $frost-font-xs;
+  color: $frost-color-grey-4;
+  text-overflow: ellipsis;
+  max-width: 45%;
+  overflow: hidden;
+  float: left;
+  white-space: nowrap;
+}
+.property-label-small-colon {
+  font-size: $frost-font-xs;
+  color: $frost-color-grey-4;
+  float: left;
+  margin-right: 5px;
+}
+.property-value-small{
+  font-size: $frost-font-xs;
+  color: $frost-color-grey-1;
+  float: left;
+  text-overflow: ellipsis;
+  max-width: 55%;
+  overflow: hidden;
+  white-space: nowrap;
+  
+}
