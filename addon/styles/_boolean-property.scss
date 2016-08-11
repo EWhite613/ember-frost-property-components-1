@@ -1,4 +1,11 @@
-.frost-list-item .boolean-svg {
-  width: 10px;
-  margin-left: 10px; 
+.frost-list-item {
+  .boolean-svg{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px; 
+  }
+  .boolean-label {
+    font-size: $frost-font-xs;
+    color: $frost-color-grey-4;
+  }
 }
