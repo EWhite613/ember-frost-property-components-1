@@ -4,16 +4,14 @@
 <div class="block column">
   {{#if primaryId}}
     {{#if (is-string primaryId)}}
-    <div class="row">
-      <div class='primary'>{{get model primaryId}}</div>
-    </div>
+      {{primary-identifier value=(get model primaryId)}}
     {{else}}
       {{component primaryId model=model}}
     {{/if}}
   {{/if}}
   {{#if secondaryId}}
     {{#if (is-string secondaryId)}}
-        <div class='tertiary'>{{get model secondaryId}}</div>
+      {{secondary-identifier value=(get model secondaryId)}}
     {{else}}
       {{component secondaryId model=model}}            
     {{/if}}

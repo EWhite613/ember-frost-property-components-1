@@ -1,14 +1,13 @@
 <div class='tertiary'>
   <div class='frost-flex-1 no-overflow-all'>
-    {{#if model.resourceType}}
-      <div class='tertiary small'>
-        {{model.resourceType}}
-      </div>
-    {{else}}
-      <div class='tertiary small'>
-        Unknown type
-      </div>
-    {{/if}}
+    <div class="column-properties first">
+      {{boolean-property label='Love bacon:' boolean=true}}
+      {{boolean-property label='Hate bacon:' boolean=false}}
+    </div>
+    <div class="column-properties">
+      {{boolean-property label='Love bacon:' boolean=true}}
+      {{boolean-property label='Hate bacon:' boolean=false}}
+    </div>
     {{#if model.profileName}}
       <div class='tertiary small'>
         {{model.profileName}}
