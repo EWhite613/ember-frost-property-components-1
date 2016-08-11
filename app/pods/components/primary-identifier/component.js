@@ -1,1 +1,1 @@
-export { default } from 'ember-frost-property-components/components/primary-identifier/component';
+export { default } from 'ember-frost-property-components/pods/components/primary-identifier/component';

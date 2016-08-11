@@ -1,1 +1,1 @@
-export { default } from 'ember-frost-property-components/components/boolean-property/component';
+export { default } from 'ember-frost-property-components/pods/components/boolean-property/component';
