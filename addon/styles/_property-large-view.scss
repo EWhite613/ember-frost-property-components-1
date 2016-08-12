@@ -3,18 +3,16 @@
   color: $frost-color-grey-4;
   max-width: 45%;
   float: left;
-}
-.property-label-large-colon {
-  font-size: $frost-font-xs;
-  color: $frost-color-grey-4;
-  float: left;
   margin-right: 5px;
+  width: 100%;
 }
 .property-value-large{
   font-size: $frost-font-xs;
   color: $frost-color-grey-1;
   float: left;
   max-width: 55%;
+  margin: auto;
+  width: 100%;
 }
 .property-large-view {
   padding-bottom: 10px;
