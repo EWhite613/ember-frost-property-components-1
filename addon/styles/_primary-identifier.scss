@@ -1,0 +1,9 @@
+.frost-list-item .primary {
+	padding-bottom: 5px;
+	font-size: $frost-font-s;
+	font-weight: bold;
+	color: $frost-color-grey-1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
