@@ -1,7 +1,7 @@
-import Ember from 'ember';
+import Ember from 'ember'
 
-export function getYearMonthDay([date]/*, hash*/) {
+export function getYearMonthDay ([date]/*, hash*/) {
   return date.getFullYear() + '-' + date.getMonth() + '-' + date.getDate()
 }
 
-export default Ember.Helper.helper(getYearMonthDay);
+export default Ember.Helper.helper(getYearMonthDay)

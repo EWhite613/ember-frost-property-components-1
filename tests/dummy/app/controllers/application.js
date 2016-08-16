@@ -1,9 +1,9 @@
-import Ember from 'ember';
+import Ember from 'ember'
 
 export default Ember.Controller.extend({
   actions: {
-    transitionHandler(attrs) {
+    transitionHandler (attrs) {
       this.transitionToRoute(attrs)
     }
   }
-});
+})

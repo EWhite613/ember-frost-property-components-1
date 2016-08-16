@@ -1,8 +1,8 @@
-import Ember from 'ember';
-import layout from './template';
+import Ember from 'ember'
+import layout from './template'
 
 export default Ember.Component.extend({
   layout,
-    classNames: ['property-small-view']
+  classNames: ['property-small-view']
 
-});
+})

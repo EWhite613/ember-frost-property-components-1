@@ -1,1 +1,1 @@
-export { default, getTime } from 'ember-frost-property-components/helpers/get-time';
+export { default, getTime } from 'ember-frost-property-components/helpers/get-time'

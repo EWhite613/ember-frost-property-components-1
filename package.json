@@ -8,8 +8,9 @@
   },
   "scripts": {
     "build": "ember build",
+    "lint": "eslint *.js addon app blueprints config tests",
     "start": "ember server",
-    "test": "ember try:testall"
+    "test": "npm run-script lint && ember test"
   },
   "repository": "",
   "engines": {
@@ -54,8 +55,8 @@
     "ember-run-raf": "1.1.2",
     "ember-truth-helpers": "1.2.0",
     "ember-try": "0.2.2",
-    "eslint": "^2.9.0",
-    "eslint-config-frost-standard": "^2.0.0",
+    "eslint": "^2.13.1",
+    "eslint-config-frost-standard": "^2.1.0",
     "loader.js": "^4.0.0",
     "lodash-es": "4.14.1",
     "redux": "3.5.2",
